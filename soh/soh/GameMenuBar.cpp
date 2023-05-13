@@ -476,6 +476,8 @@ namespace GameMenuBar {
                         "- Obtained the Master Sword\n"
                         "- Not within range of Time Block\n"
                         "- Not within range of Ocarina playing spots");
+                    UIWidgets::PaddedEnhancementCheckbox("Skip giving back the fishing rod", "gFishingRod", true, false);
+                    UIWidgets::Tooltip("Link will exit the fishing shack immediately after winning the big prize.\n");
                     ImGui::EndMenu();
                 }
 
